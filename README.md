@@ -1,30 +1,16 @@
-# 🛠 React & Node.js Authentication System with SQLite
-- This project is a React + Node.js (Express + SQLite) web application with:
+# 🚀 React & Node.js Authentication System with JWT and SQLite
 
-- JWT Authentication (Login system with token-based security)
-
-- Protected Routes (Dashboard & Map are accessible only after login)
-
-- Interactive Map (Using Leaflet to display a map of India)
-
-- SQLite Database (For storing users & authentication)
-
-- RESTful APIs (Login, Dashboard data, and Map data)
+- This is a full-stack application built with **React (frontend)** and **Node.js (backend) with Express and SQLite**.  
+It includes **user authentication (JWT), a protected dashboard, and a map view**.
 
 ## 📌 How to Login & Use the App
 
 1. Register a user (or use the default user below).
-
-2. Login at http://localhost:3000/login with:
-
+2. Login at https://react-node-auth.netlify.app/  with:
     - Username: admin
-
     - Password: password123
-
 3. Upon successful login, you will be redirected to the Dashboard.
-
 4. Click on a dashboard card to navigate to the Map View.
-
 5. Logout by clearing the token from localStorage.
 
 
@@ -56,7 +42,7 @@
 ## 📌 Project Setup
 - Clone the Repository
     ```bash
-    git clone https://github.com/your-repo/react-node-auth.git
+    git clone https://github.com/dhruvjaiswal2981/react-node-auth.git
     cd react-node-auth
     ```
 
@@ -121,16 +107,15 @@
 
 - Backend Deployment
     - Live Demo: The application is hosted on Render
-    - Access it here: https://recipe-app-waou.onrender.com
-
+    - Access it here: https://react-node-auth-azq8.onrender.com
 
 - Frontend Deployment
 
     - Live Demo: The application is hosted on Netlify.
-    - Access it here: https://app-recipe-management.netlify.app/
+    - Access it here: https://react-node-auth.netlify.app/
 
 ## Live Demo
-- Demo Video Link :
+- Demo Video Link : https://drive.google.com/file/d/1U9j5bP1m_SmUQjooujEiwFqGb3rbLkzO/view?usp=sharing
 
 ## 📌 Author
 - 💻 Developed by Dhruv Jaiswal
